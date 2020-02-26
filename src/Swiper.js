@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Animated, PanResponder, StyleSheet, View, ViewPropTypes } from 'react-native';
+import { Animated, PanResponder, StyleSheet, View } from 'react-native';
 
 import DefaultControls from './Controls';
 
@@ -304,10 +304,6 @@ Swiper.propTypes = {
   onIndexChanged: PropTypes.func,
 
   positionFixed: PropTypes.bool, // Fix safari vertical bounces
-  containerStyle: ViewPropTypes.style,
-  innerContainerStyle: ViewPropTypes.style,
-  swipeAreaStyle: ViewPropTypes.style,
-  slideWrapperStyle: ViewPropTypes.style,
 
   controlsEnabled: PropTypes.bool,
   controlsProps: PropTypes.shape(DefaultControls.propTypes),
