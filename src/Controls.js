@@ -213,8 +213,6 @@ DefaultControls.propTypes = {
   dotProps: PropTypes.shape(Badge.propTypes),
   DotComponent: PropTypes.func,
 
-  prevTitleStyle: Text.propTypes.style,
-  nextTitleStyle: Text.propTypes.style,
   PrevComponent: PropTypes.func,
   NextComponent: PropTypes.func,
   firstPrevElement: nodeType,

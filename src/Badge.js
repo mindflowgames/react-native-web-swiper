@@ -39,7 +39,6 @@ const Badge = props => {
 };
 
 Badge.propTypes = {
-  textStyle: Text.propTypes.style,
   value: PropTypes.node,
   onPress: PropTypes.func,
   Component: PropTypes.func,
